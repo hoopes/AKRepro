@@ -18,33 +18,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hU4-d0-O5l">
-                                <rect key="frame" x="119" y="153" width="124" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hU4-d0-O5l">
+                                <rect key="frame" x="87.5" y="46" width="200" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49258503516392627" blue="0.99037510613433599" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Buq-nr-IeT"/>
+                                    <constraint firstAttribute="width" constant="200" id="ghh-vU-TMl"/>
+                                </constraints>
                                 <state key="normal" title="Cart Off"/>
                                 <connections>
                                     <action selector="toggleCart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CbA-bl-LCr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHz-KV-gRh">
-                                <rect key="frame" x="106" y="204" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHz-KV-gRh">
+                                <rect key="frame" x="87" y="97" width="200" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49258503516392627" blue="0.99037510613433599" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="DHc-7w-k3P"/>
+                                    <constraint firstAttribute="height" constant="30" id="a2z-YS-jcf"/>
+                                </constraints>
                                 <state key="normal" title="Mic Off"/>
                                 <connections>
                                     <action selector="toggleMic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9qD-oO-Xww"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBX-1b-nct">
-                                <rect key="frame" x="108" y="268" width="146" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBX-1b-nct">
+                                <rect key="frame" x="87" y="146" width="200" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49258503516392627" blue="0.99037510613433599" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Phl-rp-N1k"/>
+                                    <constraint firstAttribute="height" constant="30" id="mrF-Dl-tF5"/>
+                                </constraints>
                                 <state key="normal" title="Record"/>
                                 <connections>
                                     <action selector="toggleRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4T1-sL-DJd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lN-ch-3Gl">
-                                <rect key="frame" x="129" y="600" width="116" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lN-ch-3Gl">
+                                <rect key="frame" x="87" y="261" width="200" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49258503516392627" blue="0.99037510613433599" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ATR-zF-Zt5"/>
+                                    <constraint firstAttribute="width" constant="200" id="VOH-6I-mMV"/>
+                                </constraints>
                                 <state key="normal" title="Play"/>
                                 <connections>
                                     <action selector="togglePlaying:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6F-xB-9uh"/>
@@ -52,6 +68,16 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PHz-KV-gRh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4Kh-r6-R3N"/>
+                            <constraint firstItem="PHz-KV-gRh" firstAttribute="top" secondItem="hU4-d0-O5l" secondAttribute="bottom" constant="21" id="8Br-YX-2RH"/>
+                            <constraint firstItem="dBX-1b-nct" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="W2V-sU-Xar"/>
+                            <constraint firstItem="9lN-ch-3Gl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="asE-bn-ooN"/>
+                            <constraint firstItem="hU4-d0-O5l" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gUT-id-d80"/>
+                            <constraint firstItem="9lN-ch-3Gl" firstAttribute="top" secondItem="dBX-1b-nct" secondAttribute="bottom" constant="85" id="jZ8-S3-Edw"/>
+                            <constraint firstItem="hU4-d0-O5l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="o2f-zt-d63"/>
+                            <constraint firstItem="dBX-1b-nct" firstAttribute="top" secondItem="PHz-KV-gRh" secondAttribute="bottom" constant="19" id="zme-fa-FAC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
