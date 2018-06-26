@@ -210,8 +210,11 @@ class ViewController: UIViewController {
                 
                 playbackButton.isHidden = false
                 
-                recordedFile.exportAsynchronously(name: "test.caf", baseDir: .documents, exportFormat: .caf) { (audioFile, error) in
-                    
+                recordedFile.exportAsynchronously(name: "test.caf",
+                                                  baseDir: .documents,
+                                                  exportFormat: .caf) {
+                                                    (audioFile, error) in
+
                     if let error = error {
                         print("Failed to export! \(error)")
                     } else {
