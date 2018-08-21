@@ -26,9 +26,6 @@
                                     <constraint firstAttribute="width" constant="200" id="ghh-vU-TMl"/>
                                 </constraints>
                                 <state key="normal" title="Cart Off"/>
-                                <connections>
-                                    <action selector="toggleCart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CbA-bl-LCr"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHz-KV-gRh">
                                 <rect key="frame" x="87" y="97" width="200" height="30"/>
@@ -38,9 +35,6 @@
                                     <constraint firstAttribute="height" constant="30" id="a2z-YS-jcf"/>
                                 </constraints>
                                 <state key="normal" title="Mic Off"/>
-                                <connections>
-                                    <action selector="toggleMic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9qD-oO-Xww"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBX-1b-nct">
                                 <rect key="frame" x="87" y="146" width="200" height="30"/>
@@ -81,8 +75,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="cartButton" destination="hU4-d0-O5l" id="zYW-61-HaV"/>
-                        <outlet property="micButton" destination="PHz-KV-gRh" id="ZJC-sK-m9O"/>
                         <outlet property="playbackButton" destination="9lN-ch-3Gl" id="YN0-32-MIg"/>
                         <outlet property="recordButton" destination="dBX-1b-nct" id="Uxh-Cj-d46"/>
                     </connections>
